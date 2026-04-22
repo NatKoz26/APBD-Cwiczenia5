@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using TrainingCenterApi.Data;
 using TrainingCenterApi.Models;
 
-namespace TrainingCenterApi.Cotrollers
-{
+namespace TrainingCenterApi.Cotrollers;
+
     [ApiController]
     [Route("api/[controller]")]
     public class RoomsController : ControllerBase
@@ -88,4 +88,3 @@ namespace TrainingCenterApi.Cotrollers
 
 
     }
-}

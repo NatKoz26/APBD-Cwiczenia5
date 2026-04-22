@@ -1,7 +1,7 @@
 using TrainingCenterApi.Models;
 
-namespace TrainingCenterApi.Data
-{
+namespace TrainingCenterApi.Data;
+
     public static class InMemoryData
     {
         public static List<Room> Rooms = new List<Room>
@@ -17,4 +17,3 @@ namespace TrainingCenterApi.Data
             new Reservation { Id = 1, RoomId = 1, OrganizerName = "Jan Kowalski", Topic = "C# Basics", Date = DateTime.Parse("2026-05-10"), StartTime = TimeSpan.Parse("10:00"), EndTime = TimeSpan.Parse("12:00"), Status = "confirmed" }
         };
     }
-}
